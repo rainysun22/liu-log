@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/search.md",
+                "file": "content/posts/first-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "search"
+              "title": "first-post"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/search.md",
+                "file": "content/posts/first-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "search 的反向链接列表"
+              "title": "first-post 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/search.md",
+                "file": "content/posts/first-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "search 的出链列表"
+              "title": "first-post 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/search.md",
+                "file": "content/posts/first-post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "search 的大纲"
+              "title": "first-post 的大纲"
             }
           },
           {
@@ -181,8 +181,8 @@
   },
   "active": "d7af99a8ae35d8f0",
   "lastOpenFiles": [
-    "content/posts/first-post.md",
     "content/search.md",
+    "content/posts/first-post.md",
     "archetypes/default.md",
     "未命名"
   ]

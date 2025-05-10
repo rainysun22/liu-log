@@ -35,4 +35,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-真的不错啊
+听起来不错啊小老弟

@@ -1,6 +1,7 @@
 baseURL: "https://www.stephenliu.uk/"
 title: "liuzifeng'log"
-paginate: 5
+pagination:
+  paperSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -36,7 +37,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true

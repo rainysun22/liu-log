@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-minify:s
+minify:
   disableXML: true
   minifyOutput: true
 

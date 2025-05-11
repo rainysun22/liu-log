@@ -114,20 +114,20 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
     includeMatches: true
-giscus:
-    repo: "StephenLiu2/liu-log"
-    repoId: "R_kgDONwIeSw"
-    category: "Announcements"
-    categoryId: "DIC_kwDONwIeS84CqBH_"
-    mapping: "pathname"
-    strict: "0"
-    reactionsEnabled: "1"
-    emitMetadata: "0"
-    inputPosition: "bottom"
-    lightTheme: "light"
-    darkTheme: "dark"
-    lang: "zh-CN"
-    crossorigin: "anonymous"
+  giscus:
+      repo: "StephenLiu2/liu-log"
+      repoId: "R_kgDONwIeSw"
+      category: "Announcements"
+      categoryId: "DIC_kwDONwIeS84CqBH_"
+      mapping: "pathname"
+      strict: "0"
+      reactionsEnabled: "1"
+      emitMetadata: "0"
+      inputPosition: "bottom"
+      lightTheme: "light"
+      darkTheme: "dark"
+      lang: "zh-CN"
+      crossorigin: "anonymous"
     
 taxonomies:
   category: categories

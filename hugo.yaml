@@ -1,5 +1,5 @@
 baseURL: "https://www.stephenliu.uk/"
-title: "liuzifeng'log"
+title: "liu'log"
 pagination:
   paperSize: 5
 theme: PaperMod
@@ -53,7 +53,7 @@ params:
     safari_pinned_tab: "/icon.jpg"
 
   label:
-    text: "liuzifeng'log"
+    text: "liu'log"
     icon: /apple-touch-icon.png
     iconHeight: 35
 

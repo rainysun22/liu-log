@@ -1,6 +1,6 @@
 ---
 title:
-date:
+date: {{ .Date }}
 tags:
   - first
 author: liuzifeng

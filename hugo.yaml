@@ -46,11 +46,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/icon.jpg"
-    favicon16x16: "/icon.jpg"
-    favicon32x32: "/icon.jpg"
-    apple_touch_icon: "/icon.jpg"
-    safari_pinned_tab: "/icon.jpg"
+    favicon: "/icon.png"
+    favicon16x16: "/icon.png"
+    favicon32x32: "/icon.png"
+    apple_touch_icon: "/icon.png"
+    safari_pinned_tab: "/icon.png"
 
   label:
     text: "liu'log"

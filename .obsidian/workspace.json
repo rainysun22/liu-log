@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "public/index.html",
-                "bFile": "public/index.html",
+                "aFile": "themes/PaperMod",
+                "bFile": "themes/PaperMod",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: index.html"
+              "title": "Diff: PaperMod"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "a8be18388ced4502",
   "lastOpenFiles": [
+    "content/about.md",
     "content/posts/第一篇测试.md",
     "public/icon.png",
     "static/icon.png",
@@ -193,7 +194,6 @@
     "public/posts/第一篇测试",
     "content/posts/真不错.md",
     "content/posts/你好.md",
-    "content/about.md",
     "content/archives.md",
     "content/search.md",
     "public/about/index.html",

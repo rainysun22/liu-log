@@ -1,6 +1,8 @@
 ---
 title: 
 date: "{{ .Date }}"
+categories:
+  - first
 tags:
   - first
 author: liuzifeng

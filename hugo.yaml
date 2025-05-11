@@ -1,5 +1,5 @@
 baseURL: "https://www.stephenliu.uk/"
-title: "Liu'Log"
+title: "liuzifeng'log"
 paginate: 5
 theme: PaperMod
 
@@ -7,6 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 minify:
   disableXML: true
@@ -111,20 +112,28 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+    includeMatches: true
+
+taxonomies:
+  category: categories
+  tag: tags
 menu:
   main:
-    - identifier: categories
-      name: Categories
+    - name: Home
+      url: /
+      weight: 1
+    - name: archives
+      url: /archives/
+      weight: 2
+    - name: categories
       url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
+      weight: 3
+    - name: tags
       url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
+      weight: 4
+    - name: search
       url: /search/
-      weight: 30
+      weight: 5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

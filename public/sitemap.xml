@@ -23,6 +23,8 @@
     <loc>http://localhost:1313/posts/%E7%9C%9F%E4%B8%8D%E9%94%99/</loc>
     <lastmod>2024-08-05T03:25:53+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

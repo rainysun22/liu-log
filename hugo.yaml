@@ -145,6 +145,9 @@ menu:
     - name: Search
       url: /search/
       weight: 5
+    - name: About
+      url: /about/
+      weight: 6
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

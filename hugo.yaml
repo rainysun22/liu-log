@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "\U0001F44B Welcome to my log"
-    Content: Welcome to my log
+    Content: "道阻且长 行则将至"
 
   socialIcons:
     - name: gitlab

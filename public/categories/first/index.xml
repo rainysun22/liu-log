@@ -11,14 +11,6 @@
     </image>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Aug 2024 03:25:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/first/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>你好</title>
-      <link>http://localhost:1313/posts/%E4%BD%A0%E5%A5%BD/</link>
-      <pubDate>Sun, 04 Aug 2024 03:25:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E4%BD%A0%E5%A5%BD/</guid>
-      <description>Desc Text.</description>
-    </item>
   </channel>
 </rss>

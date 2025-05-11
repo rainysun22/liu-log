@@ -4,7 +4,6 @@ layout: "about"
 url: "/about/"
 summary: about
 ShowReadingTime: false
-ShowWordCount: true
 ---
 ## 关于我
 

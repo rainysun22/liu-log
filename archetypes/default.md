@@ -1,6 +1,6 @@
 ---
-title: 
-date: "{{ .Date }}"
+title:
+date:
 tags:
   - first
 author: liuzifeng

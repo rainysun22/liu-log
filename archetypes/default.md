@@ -1,8 +1,6 @@
 ---
 title: 
 date: "{{ .Date }}"
-categories:
-  - first
 tags:
   - first
 author: liuzifeng
@@ -11,7 +9,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: Desc Text.
 canonicalURL: https://canonical.url/to/page
 disableHLJS: false
 disableShare: true

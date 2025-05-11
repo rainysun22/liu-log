@@ -11,14 +11,14 @@
             "id": "a8be18388ced4502",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "themes/PaperMod",
-                "bFile": "themes/PaperMod",
-                "aRef": ""
+                "file": "content/about.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: PaperMod"
+              "icon": "lucide-file",
+              "title": "about"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "a8be18388ced4502",
   "lastOpenFiles": [
-    "content/about.md",
     "content/posts/第一篇测试.md",
+    "content/about.md",
     "public/icon.png",
     "static/icon.png",
     "static/橘猫.png",

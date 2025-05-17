@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/从0开始学英语语法.md",
+                "file": "content/posts/从0开始学英语语法-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从0开始学英语语法"
+              "title": "从0开始学英语语法-1"
             }
           }
         ]
@@ -182,18 +182,19 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "public/posts/从0开始学英语语法-1/index.html",
+    "public/posts/从0开始学英语语法-1",
     "static/images/英语基础语法-4.png",
     "static/images/英语基础语法-2.png",
     "static/images/英语基础语法-3.png",
     "static/images/英语基础语法.png",
     "static/images/英语基础语法-1.png",
-    "content/posts/从0开始学英语语法.md",
+    "content/posts/从0开始学英语语法-1.md",
     "public/images/从0开始学英语语法-8.png",
     "static/images/从0开始学英语语法-8.png",
     "public/images/从0开始学英语语法-7.png",
     "static/images/从0开始学英语语法-7.png",
     "public/images/从0开始学英语语法-6.png",
-    "static/images/从0开始学英语语法-6.png",
     "public/posts/从0开始学英语语法/index.html",
     "public/posts/从0开始学英语语法",
     "imags/英语基础语法-2.png.md",
@@ -204,7 +205,6 @@
     "images",
     "public/images",
     "public/未命名",
-    "static/images",
     "content/posts/engliesh.md",
     "content/posts/英语111.md",
     "content/posts/111.md",

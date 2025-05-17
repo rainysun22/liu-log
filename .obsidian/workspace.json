@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/从0开始学英语语法-2.md",
+                "file": "content/posts/从0开始学英语语法-句子成分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从0开始学英语语法-2"
+              "title": "从0开始学英语语法-句子成分"
             }
           }
         ]
@@ -182,8 +182,14 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/从0开始学英语语法-1.md",
-    "content/posts/从0开始学英语语法-2.md",
+    "public/images/从0开始学英语语法-句子成分.png",
+    "static/images/从0开始学英语语法-句子成分.png",
+    "content/posts/从0开始学英语语法-词性.md",
+    "content/posts/从0开始学英语语法-句子成分.md",
+    "public/posts/从0开始学英语语法-句子成分/index.html",
+    "public/posts/从0开始学英语语法-句子成分",
+    "public/posts/从0开始学英语语法-词性/index.html",
+    "public/posts/从0开始学英语语法-词性",
     "public/posts/从0开始学英语语法-2/index.html",
     "public/posts/从0开始学英语语法-2",
     "public/posts/从0开始学英语语法-1/index.html",
@@ -197,14 +203,9 @@
     "static/images/从0开始学英语语法-8.png",
     "public/images/从0开始学英语语法-7.png",
     "static/images/从0开始学英语语法-7.png",
-    "public/images/从0开始学英语语法-6.png",
     "public/posts/从0开始学英语语法/index.html",
     "public/posts/从0开始学英语语法",
     "imags/英语基础语法-2.png.md",
-    "imags",
-    "layouts/partials/extend_head.html",
-    "layouts/_default/_markup/render-image.html",
-    "layouts/_default/_markup",
     "content/posts/engliesh.md",
     "content/posts/英语111.md",
     "content/posts/111.md",

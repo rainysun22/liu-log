@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gitlab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3cd707432863083b",
+  "active": "a8be18388ced4502",
   "lastOpenFiles": [
     "content/about.md",
     "content/posts/第一篇测试.md",

@@ -13,27 +13,22 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/tags/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>英语基础语法</title>
+      <title></title>
       <link>http://localhost:1313/posts/%E8%8B%B1%E8%AF%AD%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E8%8B%B1%E8%AF%AD%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
-      <description>&lt;h2 id=&#34;句子的组成部分&#34;&gt;句子的组成部分&lt;/h2&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;学习参考：https://hzpt-inet-club.github.io/english-note/guide/grammar.html&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;句子的组成部分&#34;&gt;句子的组成部分&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主谓宾句型 -&amp;gt; I hit you
 &lt;ul&gt;
 &lt;li&gt;I -&amp;gt; 主&lt;/li&gt;
 &lt;li&gt;hit -&amp;gt; 谓&lt;/li&gt;
-&lt;li&gt;you -&amp;gt; 宾
-![[Pasted image 20250517155634.png]]&amp;mdash;
-title:
-date: 2025-05-17T15:59:08
-tags:&lt;/li&gt;
-&lt;li&gt;first
-author: liuzifeng&lt;/li&gt;
+&lt;li&gt;you -&amp;gt; 宾&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;</description>
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

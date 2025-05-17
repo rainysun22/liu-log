@@ -11,14 +11,12 @@
             "id": "a8be18388ced4502",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/英语基础语法.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20250517155634.png"
               },
-              "icon": "lucide-file",
-              "title": "英语基础语法"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250517155634"
             }
           }
         ]
@@ -180,10 +178,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a8be18388ced4502",
+  "active": "931d79ec7d7c52e9",
   "lastOpenFiles": [
-    "static/Pasted image 20250517155634.png",
     "content/posts/英语基础语法.md",
+    "images",
+    "images/Pasted image 20250517155634.png",
     "public/Pasted image 20250517155634.png",
     "content/archives.md",
     "content/search.md",
@@ -202,7 +201,6 @@
     "static/橘猫.png",
     "archetypes/default.md",
     "layouts/_default/about.html",
-    "layouts/_default",
     "content/posts/真不错.md",
     "content/posts/你好.md",
     "未命名.md",

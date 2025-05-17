@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 May 2025 16:37:40 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 17:51:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>英语基础语法</title>
+      <title>从0开始学英语语法-2</title>
+      <link>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95-2/</link>
+      <pubDate>Sat, 17 May 2025 17:51:42 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>从0开始学英语语法-1</title>
       <link>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95-1/</link>
       <pubDate>Sat, 17 May 2025 16:37:40 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95-1/</guid>

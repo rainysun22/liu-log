@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>英语基础语法</title>
-      <link>http://localhost:1313/posts/%E8%8B%B1%E8%AF%AD%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
+      <link>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Sat, 17 May 2025 16:37:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E8%8B%B1%E8%AF%AD%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
+      <guid>http://localhost:1313/posts/%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;学习参考：&lt;a href=&#34;https://hzpt-inet-club.github.io/english-note/guide/grammar.html&#34;&gt;https://hzpt-inet-club.github.io/english-note/guide/grammar.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;句子的组成部分&#34;&gt;句子的组成部分&lt;/h2&gt;
@@ -45,7 +45,7 @@
 
 &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;代词pron&lt;/li&gt;
+&lt;li&gt;代词pron.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;code&gt;指代某个名词的词&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -57,7 +57,7 @@
 
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;数词num&lt;/li&gt;
+&lt;li&gt;数词num.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;code&gt;跟数字有关的词&lt;/code&gt;&lt;/p&gt;</description>
     </item>

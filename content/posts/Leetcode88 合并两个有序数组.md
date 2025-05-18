@@ -1,5 +1,4 @@
 ---
-title: leetcode88
 date: 2025-05-18T17:46:11+08:00
 tags:
   - 每日一题

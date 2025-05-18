@@ -182,8 +182,9 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/about.md",
+    "archetypes/default.md",
     "content/posts/Leetcode88 合并两个有序数组.md",
+    "content/about.md",
     "content/posts/从0开始学英语语法-词性.md",
     "content/posts/从0开始学英语语法-句子成分.md",
     "public/images/从0开始学英语语法-句子成分.png",
@@ -211,7 +212,6 @@
     "content/posts/英语111.md",
     "content/posts/111.md",
     "content/posts/222.md",
-    "archetypes/default.md",
     "content/archives.md",
     "content/search.md",
     "content/posts/第一篇测试.md",

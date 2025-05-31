@@ -1,4 +1,4 @@
-baseURL: "https://www.stephenliu.uk/"
+baseURL: "https://www.frankliu.uk/"
 title: "liu'log"
 pagination:
   paperSize: 5
@@ -84,7 +84,7 @@ params:
     - name: gitee
       url: "https://gitee.com/rainysun22"
     - name: github
-      url: "https://github.com/StephenLiu2"
+      url: "https://github.com/rainysun22"
 
   analytics:
     google:

@@ -1,7 +1,8 @@
 ---
-title: 
+title: Rust笔记--003 所有权
 date: 2025-05-31T19:03:07+08:00
-tags: []
+tags:
+  - rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/ownership/ownership.html](https://course.rs/basic/ownership/ownership.html)

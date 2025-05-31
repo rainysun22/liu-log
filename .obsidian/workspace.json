@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Rust笔记--003 所有权.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust笔记--003 所有权"
+              "title": "about"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/Rust笔记--002 基本类型.md",
+    "static/images/FC389F80FCD565CF37007791E6D0DB54.png",
     "content/posts/Rust笔记--003 所有权.md",
+    "content/posts/Rust笔记--002 基本类型.md",
     "content/posts/Rust笔记--001 变量.md",
     "content/posts/浅尝英语语法--002 句子成分.md",
     "content/posts/leetcode88 合并两个有序数组.md",

@@ -5,4 +5,4 @@ url: "/about/"
 summary: about
 ShowReadingTime: false
 ---
-道阻且长，行则将至
+![](/images/FC389F80FCD565CF37007791E6D0DB54.png)

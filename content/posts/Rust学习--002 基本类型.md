@@ -1,7 +1,8 @@
 ---
 title: Rust学习--002 基本类型
 date: 2025-05-31T17:57:22+08:00
-tags: 
+tags:
+  - rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/about-book.html](https://course.rs/about-book.html)

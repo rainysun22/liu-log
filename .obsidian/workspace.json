@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/leetcode88 合并两个有序数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "leetcode88 合并两个有序数组"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "content/about.md",
     "static/images/FC389F80FCD565CF37007791E6D0DB54.png",
     "content/posts/Rust笔记--003 所有权.md",
     "content/posts/Rust笔记--002 基本类型.md",
@@ -192,7 +193,6 @@
     "content/posts/浅尝英语语法--001 词性.md",
     "content/search.md",
     "content/archives.md",
-    "content/about.md",
     "content/posts/模式匹配.md",
     "archetypes/default.md",
     "public/images/从0开始学英语语法-句子成分.png",
@@ -211,7 +211,6 @@
     "static/images/英语基础语法.png",
     "static/images/英语基础语法-1.png",
     "public/images/从0开始学英语语法-8.png",
-    "static/images/从0开始学英语语法-8.png",
     "public/posts/从0开始学英语语法/index.html",
     "public/posts/从0开始学英语语法",
     "imags/英语基础语法-2.png.md",

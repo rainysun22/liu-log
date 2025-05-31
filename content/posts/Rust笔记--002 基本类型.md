@@ -5,7 +5,7 @@ tags:
   - rust
 author: liuzifeng
 ---
-> 学习参考：[https://course.rs/about-book.html](https://course.rs/about-book.html)
+> 学习参考：[https://course.rs/basic/base-type/index.html](https://course.rs/basic/base-type/index.html)
 ## 1. 数值类型
 ### 整数类型
 

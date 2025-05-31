@@ -4,6 +4,7 @@ date: 2025-05-31T19:03:07+08:00
 tags: []
 author: liuzifeng
 ---
+> 学习参考：[https://course.rs/basic/ownership/ownership.html](https://course.rs/basic/ownership/ownership.html)
 ## 所有权原则
 
 1. Rust中每一个值都被一个变量所拥有，该变量称为值的所有者

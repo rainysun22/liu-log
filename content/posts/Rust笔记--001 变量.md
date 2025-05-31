@@ -1,5 +1,5 @@
 ---
-title: Rust学习--001 变量
+title: Rust笔记--001 变量
 date: 2025-05-31T17:53:58+08:00
 tags:
   - rust

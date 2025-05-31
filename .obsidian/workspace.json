@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/未命名.md",
+                "file": "content/posts/Rust学习--002 基本类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Rust学习--002 基本类型"
             }
           }
         ]
@@ -182,10 +182,12 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/Leetcode88 合并两个有序数组.md",
-    "content/posts/未命名.md",
-    "content/posts/从0开始学英语语法-句子成分.md",
+    "content/posts/Rust学习--001 变量.md",
     "content/posts/从0开始学英语语法-词性.md",
+    "content/posts/Rust学习--002 基本类型.md",
+    "content/posts/从0开始学英语语法-句子成分.md",
+    "content/posts/模式匹配.md",
+    "content/posts/Leetcode88 合并两个有序数组.md",
     "archetypes/default.md",
     "content/about.md",
     "public/images/从0开始学英语语法-句子成分.png",

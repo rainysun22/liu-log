@@ -21,7 +21,7 @@ fn main() {
 }
 ```
 
-![[Pasted image 20250601213129.png]]
+![](/images/Rust笔记--004%20引用.png)
 ## 不可变引用
 
 ```
@@ -109,7 +109,7 @@ fn main() {
 fn main() {
     let mut s1 = String::from("hello");
     let s = &mut s1;
-    println!("{}", s1);  // Error,因为println!要使用s1的不可变引用
+    println!("{}", s1);  // Error,因为println
     s.push_str(" world");
 }
 ```

@@ -109,7 +109,7 @@ fn main() {
 fn main() {
     let mut s1 = String::from("hello");
     let s = &mut s1;
-    println!("{}", s1);  // Error
+    println!("{}", s1);  // Error,因为println!要使用s1的不可变引用
     s.push_str(" world");
 }
 ```

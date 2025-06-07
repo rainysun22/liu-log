@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>liu&#39;log</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:64518/</link>
     <description>Recent content on liu&#39;log</description>
     <image>
       <title>liu&#39;log</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:64518/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:64518/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Jun 2025 16:48:40 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64518/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅尝Rust--001 基础入门</title>
-      <link>http://localhost:1313/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</link>
+      <link>http://localhost:64518/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</link>
       <pubDate>Sat, 07 Jun 2025 16:48:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</guid>
+      <guid>http://localhost:64518/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;学习参考：&lt;a href=&#34;https://course.rs/basic/intro.html&#34;&gt;https://course.rs/basic/intro.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;11-变量&#34;&gt;1.1 变量&lt;/h2&gt;
@@ -43,9 +43,9 @@ a = 6;
     </item>
     <item>
       <title>leetcode88 合并两个有序数组</title>
-      <link>http://localhost:1313/posts/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</link>
+      <link>http://localhost:64518/posts/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</link>
       <pubDate>Sun, 18 May 2025 17:46:11 +0800</pubDate>
-      <guid>http://localhost:1313/posts/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://localhost:64518/posts/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;链接：&lt;a href=&#34;https://leetcode.cn/problems/merge-sorted-array/&#34;&gt;https://leetcode.cn/problems/merge-sorted-array/&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;题目&#34;&gt;题目&lt;/h2&gt;
@@ -54,9 +54,9 @@ a = 6;
     </item>
     <item>
       <title>浅尝英语语法</title>
-      <link>http://localhost:1313/posts/%E6%B5%85%E5%B0%9D%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</link>
+      <link>http://localhost:64518/posts/%E6%B5%85%E5%B0%9D%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Sat, 17 May 2025 16:37:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B5%85%E5%B0%9D%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</guid>
+      <guid>http://localhost:64518/posts/%E6%B5%85%E5%B0%9D%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;学习参考：&lt;a href=&#34;https://hzpt-inet-club.github.io/english-note/guide/grammar.html&#34;&gt;https://hzpt-inet-club.github.io/english-note/guide/grammar.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;1词性&#34;&gt;1.词性&lt;/h2&gt;
@@ -68,7 +68,7 @@ a = 6;
 &lt;li&gt;hit -&amp;gt; 谓&lt;/li&gt;
 &lt;li&gt;you -&amp;gt; 宾
 &lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95.png&#34; width=&#34;350&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:64518/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95.png&#34; width=&#34;350&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -78,8 +78,8 @@ a = 6;
 &lt;p&gt;&lt;code&gt;单词是句子的最小组成部分，每个单词都有词性&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-1.png&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-1.png&#34; alt=&#34;&#34;  /&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:64518/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-1.png&#34;&gt;
+        &lt;img src=&#34;http://localhost:64518/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-1.png&#34; alt=&#34;&#34;  /&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 
@@ -90,8 +90,8 @@ a = 6;
 &lt;p&gt;&lt;code&gt;指代某个名词的词&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-2.png&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-2.png&#34; alt=&#34;&#34;  /&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:64518/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-2.png&#34;&gt;
+        &lt;img src=&#34;http://localhost:64518/images/%e8%8b%b1%e8%af%ad%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95-2.png&#34; alt=&#34;&#34;  /&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 
@@ -103,9 +103,9 @@ a = 6;
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:64518/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:64518/about/</guid>
       <description>about</description>
     </item>
   </channel>

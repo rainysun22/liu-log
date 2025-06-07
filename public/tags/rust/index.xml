@@ -11,103 +11,23 @@
     </image>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 May 2025 19:03:07 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 16:48:40 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rust笔记--003 所有权</title>
-      <link>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--003-%E6%89%80%E6%9C%89%E6%9D%83/</link>
-      <pubDate>Sat, 31 May 2025 19:03:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--003-%E6%89%80%E6%9C%89%E6%9D%83/</guid>
+      <title>浅尝Rust--001 基础入门</title>
+      <link>http://localhost:1313/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sat, 07 Jun 2025 16:48:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B5%85%E5%B0%9Drust--001-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;学习参考：&lt;a href=&#34;https://course.rs/basic/ownership/ownership.html&#34;&gt;https://course.rs/basic/ownership/ownership.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;所有权原则&#34;&gt;所有权原则&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Rust中每一个值都被一个变量所拥有，该变量称为值的所有者&lt;/li&gt;
-&lt;li&gt;一个值同时只能被一个变量所拥有&lt;/li&gt;
-&lt;li&gt;当所有者（变量）离开作用域范围时，这个值将被丢弃&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;变量绑定背后的数据交互&#34;&gt;变量绑定背后的数据交互&lt;/h2&gt;
-&lt;h3 id=&#34;part1未被转移所有权&#34;&gt;part1：&lt;code&gt;未被转移所有权&lt;/code&gt;&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let x = 5;
-let y = x;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;执行逻辑：&lt;/strong&gt;
-代码首先将&lt;strong&gt;5&lt;/strong&gt;绑定到变量&lt;strong&gt;x&lt;/strong&gt;，接着拷贝&lt;strong&gt;x&lt;/strong&gt;的值赋给&lt;strong&gt;y&lt;/strong&gt;，最终&lt;strong&gt;x&lt;/strong&gt;和&lt;strong&gt;y&lt;/strong&gt;都等于5&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rust笔记--002 基本类型</title>
-      <link>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--002-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/</link>
-      <pubDate>Sat, 31 May 2025 17:57:22 +0800</pubDate>
-      <guid>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--002-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;学习参考：&lt;a href=&#34;https://course.rs/basic/base-type/index.html&#34;&gt;https://course.rs/basic/base-type/index.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;1-数值类型&#34;&gt;1. 数值类型&lt;/h2&gt;
-&lt;h3 id=&#34;整数类型&#34;&gt;整数类型&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;Rust的内置数据类型&lt;/code&gt;&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;长度&lt;/th&gt;
-          &lt;th&gt;有符号&lt;/th&gt;
-          &lt;th&gt;无符号&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;8位&lt;/td&gt;
-          &lt;td&gt;i8&lt;/td&gt;
-          &lt;td&gt;u8&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;16位&lt;/td&gt;
-          &lt;td&gt;i16&lt;/td&gt;
-          &lt;td&gt;u16&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;32位&lt;/td&gt;
-          &lt;td&gt;i32&lt;/td&gt;
-          &lt;td&gt;u32&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;64位&lt;/td&gt;
-          &lt;td&gt;i64&lt;/td&gt;
-          &lt;td&gt;u64&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;128位&lt;/td&gt;
-          &lt;td&gt;i128&lt;/td&gt;
-          &lt;td&gt;u128&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;视架构而定&lt;/td&gt;
-          &lt;td&gt;isize&lt;/td&gt;
-          &lt;td&gt;usize&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;有符号类型范围：-( 2&lt;!-- raw HTML omitted --&gt;n-1&lt;!-- raw HTML omitted --&gt;) ~ 2&lt;!-- raw HTML omitted --&gt;n - 1&lt;!-- raw HTML omitted --&gt; - 1&lt;/li&gt;
-&lt;li&gt;无符号类型范围：0 ~ 2&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;-1&lt;/li&gt;
-&lt;li&gt;isize/usize取决于CPU类型：若CPU是32位的，他俩就是32位的&lt;/li&gt;
-&lt;li&gt;isize/usize主要应用：用作集合的索引&lt;/li&gt;
-&lt;li&gt;rust整型默认使用i32&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let i = 1 // i是i32类型
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;数值字面量可以用以下形式书写&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rust笔记--001 变量</title>
-      <link>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--001-%E5%8F%98%E9%87%8F/</link>
-      <pubDate>Sat, 31 May 2025 17:53:58 +0800</pubDate>
-      <guid>http://localhost:1313/posts/rust%E7%AC%94%E8%AE%B0--001-%E5%8F%98%E9%87%8F/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;学习参考：&lt;a href=&#34;https://course.rs/basic/variable.html&#34;&gt;https://course.rs/basic/variable.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;变量绑定&#34;&gt;变量绑定&lt;/h2&gt;
+&lt;p&gt;学习参考：&lt;a href=&#34;https://course.rs/basic/intro.html&#34;&gt;https://course.rs/basic/intro.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;11-变量&#34;&gt;1.1 变量&lt;/h2&gt;
+&lt;h3 id=&#34;变量绑定&#34;&gt;变量绑定&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let a = &amp;#34;hello world&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;rust最核心的原则：&lt;strong&gt;所有权&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;所有权，简单来讲，任何内存对象都是有主人的，绑定是把&amp;quot;hello world&amp;quot;绑定给一个变量a，让a成为&amp;quot;hello world&amp;quot;的主人&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;变量的可变性&#34;&gt;变量的可变性&lt;/h2&gt;
+&lt;h3 id=&#34;变量的可变性&#34;&gt;变量的可变性&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;rust变量在默认情况下是&lt;strong&gt;不可变的&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;通过&lt;strong&gt;mut&lt;/strong&gt;关键字将变量变为可变的&lt;/li&gt;
@@ -118,7 +38,7 @@ a = 6;
 &lt;li&gt;创建一个变量却不适用，用下划线_，在&lt;strong&gt;模式匹配&lt;/strong&gt;会用到&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let _a = 5;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;变量解构&#34;&gt;变量解构&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;变量解构&#34;&gt;变量解构&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;从一个相对复杂的变量中，匹配出该变量的一部分&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>

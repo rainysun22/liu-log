@@ -1,5 +1,5 @@
 ---
-title: Rust笔记--004 引用
+title: 浅尝Rust--004 引用
 date: 2025-06-01T22:04:51+08:00
 tags:
   - rust

@@ -1,5 +1,5 @@
 ---
-title: Rust笔记--006 元组
+title: 浅尝Rust--006 元组
 date: 2025-06-07T13:04:18+08:00
 tags:
   - rust

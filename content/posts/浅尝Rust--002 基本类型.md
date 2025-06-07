@@ -1,5 +1,5 @@
 ---
-title: Rust笔记--002 基本类型
+title: 浅尝Rust--002 基本类型
 date: 2025-05-31T17:57:22+08:00
 tags:
   - rust

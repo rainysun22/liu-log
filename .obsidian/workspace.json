@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Rust笔记--006 元组.md",
+                "file": "content/posts/浅尝Rust--007 结构体.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust笔记--006 元组"
+              "title": "浅尝Rust--007 结构体"
             }
           }
         ]
@@ -182,18 +182,19 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "content/posts/浅尝Rust--006 元组.md",
+    "content/posts/浅尝Rust--005 字符串与切片.md",
+    "content/posts/浅尝Rust--004 引用.md",
+    "content/posts/浅尝Rust--003 所有权.md",
+    "content/posts/浅尝Rust--002 基本类型.md",
+    "content/posts/浅尝Rust--001 变量.md",
+    "content/posts/浅尝Rust--007 结构体.md",
     "content/posts/leetcode88 合并两个有序数组.md",
-    "content/posts/Rust笔记--005 字符串与切片.md",
-    "content/posts/Rust笔记--006 元组.md",
-    "content/posts/Rust笔记--004 引用.md",
     "content/posts/Pasted image 20250601213129.png.md",
     "content/posts/浅尝英语语法--002 句子成分.md",
     "content/posts/浅尝英语语法--001 词性.md",
     "static/images/Rust笔记--005 字符串与切片.png",
     "static/images/Rust笔记--004 引用.png",
-    "content/posts/Rust笔记--003 所有权.md",
-    "content/posts/Rust笔记--002 基本类型.md",
-    "content/posts/Rust笔记--001 变量.md",
     "content/about.md",
     "public/posts/浅尝英语语法--002-句子成分/index.html",
     "public/posts/浅尝英语语法--002-句子成分",
@@ -228,7 +229,6 @@
     "content/posts/你好.md",
     "未命名.md",
     "content/posts/未命名.canvas",
-    "public/posts/未命名.canvas",
-    "content/posts/first-post.md"
+    "public/posts/未命名.canvas"
   ]
 }

@@ -304,7 +304,7 @@ assert_eq!(ret_unit_type(), ())
 
 ### 函数
 
-![[Pasted image 20250215222747.png]]
+![](/images/浅尝Rust--001%20基础入门.png)
 
 ### 函数要点
 

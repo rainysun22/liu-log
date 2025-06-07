@@ -2,7 +2,7 @@
 title: 浅尝Rust--004 引用
 date: 2025-06-01T22:04:51+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/ownership/borrowing.html](https://course.rs/basic/ownership/borrowing.html)

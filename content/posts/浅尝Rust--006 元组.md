@@ -2,7 +2,7 @@
 title: 浅尝Rust--006 元组
 date: 2025-06-07T13:04:18+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/compound-type/tuple.html](https://course.rs/basic/compound-type/tuple.html)

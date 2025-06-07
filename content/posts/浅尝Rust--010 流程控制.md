@@ -2,7 +2,7 @@
 title: 浅尝Rust--010 流程控制
 date: 2025-06-07T16:33:04+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/flow-control.html](https://course.rs/basic/flow-control.html)

@@ -2,7 +2,7 @@
 title: 浅尝Rust--005 字符串与切片
 date: 2025-06-02T12:16:43+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/compound-type/string-slice.html](https://course.rs/basic/compound-type/string-slice.html)

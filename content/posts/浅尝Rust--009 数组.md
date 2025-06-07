@@ -2,7 +2,7 @@
 title: 浅尝Rust--009 数组
 date: 2025-06-07T15:31:19+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/compound-type/array.html](https://course.rs/basic/compound-type/array.html)

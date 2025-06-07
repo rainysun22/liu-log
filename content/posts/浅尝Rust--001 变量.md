@@ -2,7 +2,7 @@
 title: 浅尝Rust--001 变量
 date: 2025-05-31T17:53:58+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/variable.html](https://course.rs/basic/variable.html)

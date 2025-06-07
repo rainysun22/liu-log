@@ -2,7 +2,7 @@
 title: 浅尝Rust--007 结构体
 date: 2025-06-07T13:40:49+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/compound-type/struct.html](https://course.rs/basic/compound-type/struct.html)

@@ -2,7 +2,7 @@
 title: 浅尝Rust--003 所有权
 date: 2025-05-31T19:03:07+08:00
 tags:
-  - rust
+  - Rust
 author: liuzifeng
 ---
 > 学习参考：[https://course.rs/basic/ownership/ownership.html](https://course.rs/basic/ownership/ownership.html)

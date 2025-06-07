@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/浅尝Rust--008 枚举.md",
+                "file": "content/posts/浅尝Rust--009 数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浅尝Rust--008 枚举"
+              "title": "浅尝Rust--009 数组"
             }
           }
         ]
@@ -182,8 +182,10 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/浅尝Rust--007 结构体.md",
     "content/posts/浅尝Rust--008 枚举.md",
+    "content/posts/浅尝Rust--009 数组.md",
+    "content/posts/().md",
+    "content/posts/浅尝Rust--007 结构体.md",
     "content/posts/浅尝Rust--006 元组.md",
     "content/posts/浅尝Rust--005 字符串与切片.md",
     "content/posts/浅尝Rust--004 引用.md",
@@ -226,8 +228,6 @@
     "content/posts/111.md",
     "content/posts/222.md",
     "content/posts/第一篇测试.md",
-    "content/posts/真不错.md",
-    "content/posts/你好.md",
     "content/posts/未命名.canvas",
     "public/posts/未命名.canvas"
   ]

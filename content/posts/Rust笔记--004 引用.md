@@ -5,6 +5,7 @@ tags:
   - rust
 author: liuzifeng
 ---
+> 学习参考：[https://course.rs/basic/ownership/borrowing.html](https://course.rs/basic/ownership/borrowing.html)
 ## 引用
 
 `获取变量的引用，称为借用`

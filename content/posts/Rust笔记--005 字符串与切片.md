@@ -5,6 +5,7 @@ tags:
   - rust
 author: liuzifeng
 ---
+> 学习参考：[https://course.rs/basic/compound-type/string-slice.html](https://course.rs/basic/compound-type/string-slice.html)
 ## 切片
 
 1. 对于字符串而言，切片就是对String类型中某一部分的引用

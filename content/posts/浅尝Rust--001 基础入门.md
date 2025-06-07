@@ -5,7 +5,7 @@ tags:
   - Rust
 author: liuzifeng
 ---
-## 1.变量
+## 1.1 变量
 
 > 学习参考：[https://course.rs/basic/variable.html](https://course.rs/basic/variable.html)
 ### 变量绑定

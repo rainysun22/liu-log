@@ -180,8 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b49f660d7c896fbe",
+  "active": "530da25e2202729d",
   "lastOpenFiles": [
+    "public/assets/css/stylesheet.57f9714c8b6ee03f7edf5d843e09ffa01a5712f39cc8f810f94b810be3aaca86.css",
+    "assets/css/extended/top.css",
+    "layouts/partials/footer.html",
     "content/posts/浅尝Rust--001 基础入门.md",
     "content/posts/leetcode88 合并两个有序数组.md",
     "content/posts/浅尝英语语法.md",
@@ -194,8 +197,6 @@
     "public/assets/css/stylesheet.798db785b871fa0ff79dd65ace825b8f751875994840bead9cb9540f3329c949.css",
     "public/images/Rust笔记--005 字符串与切片.png",
     "public/images/Rust笔记--004 引用.png",
-    "assets/css/extended/top.css",
-    "layouts/partials/footer.html",
     "assets/css/extended/toc.css",
     "assets/css/extended/blank.css",
     "static/images/浅尝Rust--001 基础入门.png",

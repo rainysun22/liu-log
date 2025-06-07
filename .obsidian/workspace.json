@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/浅尝英语语法.md",
+                "file": "content/posts/Rust笔记--001 基础入门(上).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浅尝英语语法"
+              "title": "Rust笔记--001 基础入门(上)"
             }
           }
         ]
@@ -180,8 +180,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "530da25e2202729d",
+  "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "public/posts/rust笔记--001-基础入门上/index.html",
+    "public/posts/rust笔记--001-基础入门上",
+    "public/posts/浅尝rust--001-基础入门上/index.html",
+    "public/posts/浅尝rust--001-基础入门上",
+    "content/posts/浅尝英语语法.md",
     "public/assets/css/stylesheet.9518547f8b79b5168f4e95fb9db956a4f43a0f39ccc4149a76b39a20ea666577.css",
     "public/assets/css/stylesheet.d1dd2696ef080d3a0cbba5d928d3ad414fc34bd362e7a491e6a4bd9e72278abf.css",
     "assets/css/extended/toc.css",
@@ -189,14 +194,9 @@
     "public/assets/css/stylesheet.57f9714c8b6ee03f7edf5d843e09ffa01a5712f39cc8f810f94b810be3aaca86.css",
     "assets/css/extended/top.css",
     "layouts/partials/footer.html",
-    "content/posts/浅尝Rust--001 基础入门.md",
+    "content/posts/Rust笔记--001 基础入门(上).md",
     "content/posts/leetcode88 合并两个有序数组.md",
-    "content/posts/浅尝英语语法.md",
     "public/images/浅尝Rust--001 基础入门.png",
-    "public/assets/css/stylesheet.785ecbe74a181342e3d8976c1b4daaad9b7afdda153c252c04cd98bfad8870cd.css",
-    "public/posts/浅尝rust--001-基础入门/index.html",
-    "public/posts/浅尝rust--001-基础入门",
-    "public/posts/浅尝英语语法/index.html",
     "public/images/Rust笔记--005 字符串与切片.png",
     "public/images/Rust笔记--004 引用.png",
     "static/images/浅尝Rust--001 基础入门.png",

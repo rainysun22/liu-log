@@ -1,5 +1,5 @@
 ---
-title: 浅尝Rust--001 基础入门
+title: Rust笔记--001 基础入门(上)
 date: 2025-06-07T16:48:40+08:00
 tags:
   - Rust

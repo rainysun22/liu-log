@@ -69,7 +69,7 @@ author: liuzifeng
 
 ### prefill阶段
 
-
+预填充阶段，也就是把你输入给模型的一段内容经过计算
 
 
 

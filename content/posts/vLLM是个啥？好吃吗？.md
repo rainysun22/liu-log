@@ -6,7 +6,7 @@ tags:
 author: liuzifeng
 ---
 > 参考资料：[https://zhuanlan.zhihu.com/p/691038809](https://zhuanlan.zhihu.com/p/691038809)
-## 我先尝尝😋
+## 我先尝尝:yum:
 
 作为一个从没有听说过vLLM的人来说，了解一个新东西最好的方式就是打开它的文档。
 
@@ -63,7 +63,7 @@ author: liuzifeng
 总而言之，vLLM是一个加速大模型推理过程的工具。
 
 ***
-## 我再尝尝😋
+## 我再尝尝:yum:
 ### 推理过程在干嘛？
 
 一个常规的LLM推理过程通常分为两个阶段**prefill和decode**，通常会使用KV cache技术加速推理。

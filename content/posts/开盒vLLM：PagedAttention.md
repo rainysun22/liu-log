@@ -4,6 +4,7 @@ date: 2025-06-29T14:15:55+08:00
 tags:
   - vLLM
 author: liuzifeng
+draft: "true"
 ---
 > 学习参考：[https://zhuanlan.zhihu.com/p/691038809](https://zhuanlan.zhihu.com/p/691038809)
 ## 为KV Cache分配存储空间的常规方式

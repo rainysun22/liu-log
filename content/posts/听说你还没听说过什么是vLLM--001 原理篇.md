@@ -65,10 +65,14 @@ author: liuzifeng
 
 （又听不懂了对吧，接下来听我娓娓道来..）
 
-- prefill阶段
+- prefill阶段(存放输入)
 	- 把用户输入的整段文本(prompt)一次性输入到模型里，让模型从头到尾对这段文本进行一次完整的计算，计算出它对每个词(token)的理解和关系。将计算得到的东西存放在KV cache里。
-- decode阶段
-	- 根据prefill填充的
+- decode阶段(生成输出)
+	- 根据prefill填充的内容，一个token一个token的生成输出文本(response)
+
+## 为什么KV cache能加速推理？
+
+
 
 
 

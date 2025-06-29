@@ -73,7 +73,7 @@ author: liuzifeng
 - decode阶段(生成输出)
 	- 根据prefill填充的内容，一个token一个token的生成输出文本(response)
 
-例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的方式就是prefill，续写后生成`I like eating pizza and rice`的阶段就是decode
+例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的阶段就是prefill，续写后生成`I like eating pizza and rice`的阶段就是decode
 
 ## 为什么KV cache能加速推理？
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Rust笔记--002 基础入门(中).md",
+                "file": "content/posts/负基础学vllm--001 原理篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust笔记--002 基础入门(中)"
+              "title": "负基础学vllm--001 原理篇"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/Rust笔记--001 基础入门(上).md",
     "content/posts/Rust笔记--002 基础入门(中).md",
+    "content/posts/负基础学vllm--001 原理篇.md",
+    "content/posts/Rust笔记--001 基础入门(上).md",
     "public/posts/rust笔记--001-基础入门上/index.html",
     "public/posts/rust笔记--001-基础入门上",
     "public/posts/浅尝rust--001-基础入门上/index.html",
@@ -227,7 +228,6 @@
     "archetypes/default.md",
     "imags/英语基础语法-2.png.md",
     "content/posts/engliesh.md",
-    "content/posts/英语111.md",
     "content/posts/未命名.canvas",
     "public/posts/未命名.canvas"
   ]

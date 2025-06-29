@@ -12,7 +12,7 @@ author: liuzifeng
 
 点击[https://docs.vllm.ai/](https://docs.vllm.ai/)，映入眼帘的是：
 
-![](/images/}$74YM}A5L}]1V$STCB4(PU%201.png)
+![](/images/vllm01.png)
 
 你注意到了这句话：
 

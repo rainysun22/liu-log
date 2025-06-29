@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/负基础学vllm--001 原理篇.md",
+                "file": "content/posts/听说你还没听说过什么是vLLM--001 原理篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "负基础学vllm--001 原理篇"
+              "title": "听说你还没听说过什么是vLLM--001 原理篇"
             }
           }
         ]
@@ -182,21 +182,23 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "content/posts/浅尝英语语法.md",
+    "content/posts/leetcode88 合并两个有序数组.md",
+    "content/posts/听说你还没听说过什么是vLLM--001 原理篇.md",
+    "static/images/}$74YM}A5L}]1V$STCB4(PU 1.png",
+    "static/images/}$74YM}A5L}]1V$STCB4(PU.png",
     "content/posts/Rust笔记--002 基础入门(中).md",
-    "content/posts/负基础学vllm--001 原理篇.md",
     "content/posts/Rust笔记--001 基础入门(上).md",
     "public/posts/rust笔记--001-基础入门上/index.html",
     "public/posts/rust笔记--001-基础入门上",
     "public/posts/浅尝rust--001-基础入门上/index.html",
     "public/posts/浅尝rust--001-基础入门上",
-    "content/posts/浅尝英语语法.md",
     "public/assets/css/stylesheet.9518547f8b79b5168f4e95fb9db956a4f43a0f39ccc4149a76b39a20ea666577.css",
     "public/assets/css/stylesheet.d1dd2696ef080d3a0cbba5d928d3ad414fc34bd362e7a491e6a4bd9e72278abf.css",
     "assets/css/extended/toc.css",
     "layouts/partials/toc.html",
     "public/assets/css/stylesheet.57f9714c8b6ee03f7edf5d843e09ffa01a5712f39cc8f810f94b810be3aaca86.css",
     "assets/css/extended/top.css",
-    "content/posts/leetcode88 合并两个有序数组.md",
     "public/images/浅尝Rust--001 基础入门.png",
     "public/images/Rust笔记--005 字符串与切片.png",
     "public/images/Rust笔记--004 引用.png",
@@ -220,14 +222,11 @@
     "public/images/Rust笔记--003 所有权.png",
     "public/images/FC389F80FCD565CF37007791E6D0DB54.png",
     "images/FC389F80FCD565CF37007791E6D0DB54.png.md",
-    "static/images/FC389F80FCD565CF37007791E6D0DB54.png",
-    "static/images/Rust笔记--003 所有权.png",
     "content/search.md",
     "content/archives.md",
     "content/posts/模式匹配.md",
     "archetypes/default.md",
     "imags/英语基础语法-2.png.md",
-    "content/posts/engliesh.md",
     "content/posts/未命名.canvas",
     "public/posts/未命名.canvas"
   ]

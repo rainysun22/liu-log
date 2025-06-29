@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/听说你还没听说过什么是vLLM--001 原理篇.md",
+                "file": "content/posts/听说你还没听说过什么是vLLM--001 基础篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "听说你还没听说过什么是vLLM--001 原理篇"
+              "title": "听说你还没听说过什么是vLLM--001 基础篇"
             }
           }
         ]
@@ -185,7 +185,7 @@
     "static/images/vllm.drawio.png",
     "content/posts/浅尝英语语法.md",
     "content/posts/leetcode88 合并两个有序数组.md",
-    "content/posts/听说你还没听说过什么是vLLM--001 原理篇.md",
+    "content/posts/听说你还没听说过什么是vLLM--001 基础篇.md",
     "static/images/}$74YM}A5L}]1V$STCB4(PU 1.png",
     "static/images/}$74YM}A5L}]1V$STCB4(PU.png",
     "content/posts/Rust笔记--002 基础入门(中).md",

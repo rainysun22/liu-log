@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:rust",
+                "query": "tag:vllm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,10 +182,11 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "content/posts/听说你还没听说过什么是vLLM--002 原理篇.md",
+    "content/posts/听说你还没听说过什么是vLLM--001 基础篇.md",
     "static/images/vllm02.png",
     "static/images/}$74YM}A5L}]1V$STCB4(PU.png",
     "static/images/vllm01.png",
-    "content/posts/听说你还没听说过什么是vLLM--001 基础篇.md",
     "static/images/vllm.drawio.png",
     "content/posts/浅尝英语语法.md",
     "content/posts/leetcode88 合并两个有序数组.md",
@@ -221,7 +222,6 @@
     "static/images/Rust笔记--005 字符串与切片.png",
     "static/images/Rust笔记--004 引用.png",
     "content/about.md",
-    "public/images/Rust笔记--003 所有权.png",
     "images/FC389F80FCD565CF37007791E6D0DB54.png.md",
     "content/search.md",
     "content/archives.md",

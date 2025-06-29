@@ -2,7 +2,7 @@
 title: 听说你还没听说过什么是vLLM--001 基础篇
 date: 2025-06-29T11:58:12+08:00
 tags:
-  - vllm
+  - vLLM
 author: liuzifeng
 ---
 > 参考资料：[https://zhuanlan.zhihu.com/p/691038809](https://zhuanlan.zhihu.com/p/691038809)
@@ -73,7 +73,13 @@ author: liuzifeng
 - decode阶段(生成输出)
 	- 根据prefill填充的内容，一个token一个token的生成输出文本(response)
 
-例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的阶段就是prefill，续写后生成`I like eating pizza and rice`的阶段就是decode
+例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的阶段---
+title: 
+date: 2025-06-29T14:15:46+08:00
+tags: []
+author: liuzifeng
+---
+就是prefill，续写后生成`I like eating pizza and rice`的阶段就是decode
 
 ## 为什么KV cache能加速推理？
 

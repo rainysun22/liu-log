@@ -1,12 +1,12 @@
 ---
-title: 听说你还没听说过什么是vLLM--001 基础篇
+title: vLLM是个啥？好吃吗？
 date: 2025-06-29T11:58:12+08:00
 tags:
   - vLLM
 author: liuzifeng
 ---
 > 参考资料：[https://zhuanlan.zhihu.com/p/691038809](https://zhuanlan.zhihu.com/p/691038809)
-## 到底什么是vLLM？
+## 我先尝尝
 
 作为一个从没有听说过vLLM的人来说，了解一个新东西最好的方式就是打开它的文档。
 
@@ -62,7 +62,8 @@ author: liuzifeng
 
 总而言之，vLLM是一个加速大模型推理过程的工具。
 
-## 推理过程在干嘛？
+## 我再尝尝
+### 推理过程在干嘛？
 
 一个常规的LLM推理过程通常分为两个阶段**prefill和decode**，通常会使用KV cache技术加速推理。
 
@@ -73,15 +74,10 @@ author: liuzifeng
 - decode阶段(生成输出)
 	- 根据prefill填充的内容，一个token一个token的生成输出文本(response)
 
-例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的阶段---
-title: 
-date: 2025-06-29T14:15:46+08:00
-tags: []
-author: liuzifeng
----
+例如：你输入`I like eating`，想让模型续写后面的内容。将`I like eating`存下来的阶段
 就是prefill，续写后生成`I like eating pizza and rice`的阶段就是decode
 
-## 为什么KV cache能加速推理？
+### 为什么KV cache能加速推理？
 
 ![](/images/vllm.drawio.png)
 
@@ -95,12 +91,12 @@ author: liuzifeng
 - 每生成一个词，模型都得回顾之前写的所有词
 - 缓存(KV Cache)让它不用每次都重头想起之前的内容，直接拿来用(避免重复计算)
 
-## 两个阶段的差异性
+### 两个阶段的差异性
 
 - 在prefill阶段，整个prompt是已知的完整序列，模型可以同时处理所有的token(并行计算)
 - 在decode阶段，模型是一个一个地生成token，每生成一个新token，都要依赖前面生成地结果，所以只能串行计算。故这个阶段耗时更大。
 
-## 为什么需要vLLM？
+### 为什么需要vLLM？
 
 从上述过程中，我们可以发现使用KV cache做推理时的特点：
 - 随着prompt数量变多和序列变长，KV cache也变大，对GPU显存造成压力

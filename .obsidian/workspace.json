@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/vLLM是个啥？好吃吗？.md",
+                "file": "content/posts/开盒vLLM：魔法背后的秘密.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vLLM是个啥？好吃吗？"
+              "title": "开盒vLLM：魔法背后的秘密"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
-    "content/posts/听说你还没听说过什么是vLLM--002 原理篇.md",
     "content/posts/vLLM是个啥？好吃吗？.md",
+    "content/posts/开盒vLLM：魔法背后的秘密.md",
     "static/images/vllm02.png",
     "static/images/}$74YM}A5L}]1V$STCB4(PU.png",
     "static/images/vllm01.png",

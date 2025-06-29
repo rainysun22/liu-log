@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/开盒vLLM：魔法背后的秘密.md",
+                "file": "content/posts/开盒vLLM：PagedAttention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开盒vLLM：魔法背后的秘密"
+              "title": "开盒vLLM：PagedAttention"
             }
           }
         ]
@@ -182,11 +182,12 @@
   },
   "active": "b49f660d7c896fbe",
   "lastOpenFiles": [
+    "static/images/开盒vLLM：魔法背后的秘密.png",
     "content/posts/vLLM是个啥？好吃吗？.md",
-    "content/posts/开盒vLLM：魔法背后的秘密.md",
+    "content/posts/开盒vLLM：PagedAttention.md",
+    "static/images/vllm01.png",
     "static/images/vllm02.png",
     "static/images/}$74YM}A5L}]1V$STCB4(PU.png",
-    "static/images/vllm01.png",
     "static/images/vllm.drawio.png",
     "content/posts/浅尝英语语法.md",
     "content/posts/leetcode88 合并两个有序数组.md",
@@ -227,7 +228,6 @@
     "content/archives.md",
     "content/posts/模式匹配.md",
     "archetypes/default.md",
-    "imags/英语基础语法-2.png.md",
     "content/posts/未命名.canvas",
     "public/posts/未命名.canvas"
   ]

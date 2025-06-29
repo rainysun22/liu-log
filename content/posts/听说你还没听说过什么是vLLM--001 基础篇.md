@@ -5,6 +5,7 @@ tags:
   - vllm
 author: liuzifeng
 ---
+> 参考资料：[https://zhuanlan.zhihu.com/p/691038809](https://zhuanlan.zhihu.com/p/691038809)
 ## 到底什么是vLLM？
 
 作为一个从没有听说过vLLM的人来说，了解一个新东西最好的方式就是打开它的文档。

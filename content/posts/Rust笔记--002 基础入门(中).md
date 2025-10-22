@@ -769,3 +769,165 @@ fn main() {
 
 ***
 ## 1.3 方法
+
+### 概念
+Rust 的方法往往跟结构体、枚举、特征(Trait)一起使用
+```
+object.method()
+```
+
+### 定义方法
+Rust 使用 impl 来定义方法
+```
+struct Circle {
+    x: f64,
+    y: f64,
+    radius: f64,
+}
+
+impl Circle {
+    // new是Circle的关联函数，因为它的第一个参数不是self，且new并不是关键字
+    // 这种方法往往用于初始化当前结构体的实例
+    fn new(x: f64, y: f64, radius: f64) -> Circle {
+        Circle {
+            x: x,
+            y: y,
+            radius: radius,
+        }
+    }
+
+    // Circle的方法，&self表示借用当前的Circle结构体
+    fn area(&self) -> f64 {
+        std::f64::consts::PI * (self.radius * self.radius)
+    }
+}
+```
+
+### self、&self 和 &mut self
+```
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    // &self 其实是 self: &Self 的简写。
+    // 在一个 impl 块内，Self 指代被实现方法的结构体类型，self 指代此类型的实例。
+    // 换句话说，self 指代的是 Rectangle 结构体实例
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle { width: 30, height: 50 };
+
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        rect1.area()
+    );
+}
+```
+- self 表示 Rectangle 的所有权转移到该方法中，这种形式用的较少
+- &self 表示该方法对 Rectangle 的不可变借用
+- &mut self 表示该方法对 Rectangle 的可变借用
+
+### 方法名跟结构体字段名相同
+`一般来说，方法和字段同名，往往适用于实现getter访问器`
+
+```
+mod my {
+    // 当从模块外部访问结构体时，结构体的字段默认是私有的
+    pub struct Rectangle {
+        width: u32,
+        pub height: u32,
+    }
+
+    impl Rectangle {
+        // 想从模块外部获取Rectangle的字段，只需把它的new，width和height方法设置为pub
+        pub fn new(width: u32, height: u32) -> Self {
+            Rectangle { width, height }
+        }
+        pub fn width(&self) -> u32 {
+            return self.width;
+        }
+        pub fn height(&self) -> u32 {
+            return self.height;
+        }
+    }
+}
+
+fn main() {
+    let rect1 = my::Rectangle::new(30, 50);
+
+    println!("{}", rect1.width()); // OK
+    println!("{}", rect1.height()); // OK
+    // println!("{}", rect1.width); // Error - the visibility of field defaults to private
+    println!("{}", rect1.height); // OK
+}
+```
+
+### 带有多个参数的方法
+```
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle { width: 30, height: 50 };
+    let rect2 = Rectangle { width: 10, height: 40 };
+    let rect3 = Rectangle { width: 60, height: 45 };
+
+    println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
+    println!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+}
+```
+
+### 关联函数
+`定义在impl中且没有self的函数被称之为关联函数。`
+
+`它没有self，不能用f.read()的形式调用，因此它是一个函数而不是方法，它又在impl中，与结构体紧密关联，因此称为关联函数`
+
+```
+impl Rectangle {
+    fn new(w: u32, h: u32) -> Rectangle {
+        Rectangle { width: w, height: h }
+    }
+}
+
+// 因为是函数，只能通过::调用
+// 这个方法位于结构体的命名空间中，:: 语法用于关联函数和模块创建的命名空间
+let sq = Rectangle::new(3, 3);
+```
+
+### 为枚举实现方法
+```
+#![allow(unused)]
+enum Message {
+    Quit,
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+
+impl Message {
+    fn call(&self) {
+        // 在这里定义方法体
+    }
+}
+
+fn main() {
+    let m = Message::Write(String::from("hello"));
+    m.call();
+}
+```
+
+***
+## 1.4

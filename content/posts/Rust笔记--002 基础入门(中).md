@@ -930,4 +930,160 @@ fn main() {
 ```
 
 ***
-## 1.4
+## 1.4 泛型
+
+### 声明
+```
+// largest<T> 是对泛型参数T进行声明
+// list: &[T] 是使用泛型参数T
+fn largest<T>(list: &[T]) -> T {}
+```
+
+### 泛型与特征
+```
+fn add<T>(a:T, b:T) -> T {
+    // 报错，不是所有类型都能相加，需要限定实现了Add特征的T
+    a + b
+}
+
+fn main() {
+    println!("add i8: {}", add(2i8, 3i8));
+    println!("add i32: {}", add(20, 30));
+    println!("add f64: {}", add(1.23, 1.23));
+}
+```
+
+### 显示指定泛型的参数类型
+```
+use std::fmt::Display;
+
+fn create_and_print<T>() where T: From<i32> + Display {
+    let a: T = 100.into(); // 创建了类型为 T 的变量 a，它的初始值由 100 转换而来
+    println!("a is: {}", a);
+}
+
+fn main() {
+    // 报错，编译器无法知道a的类型，应该显式指定泛型是什么类型
+    create_and_print();
+    // 显式指定泛型为i32
+    // create_and_print::<i32>();
+}
+```
+
+### 结构体使用泛型
+```
+// x 和 y 类型相同
+struct Point<T> {
+    x: T,
+    y: T,
+}
+
+// x 和 y 类型不同
+struct Point<T,U> {
+    x: T,
+    y: U,
+}
+```
+
+### 枚举使用泛型
+```
+enum Option<T> {
+    Some(T),
+    None,
+}
+
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+### 方法使用泛型
+```
+struct Point<T> {
+    x: T,
+    y: T,
+}
+
+// impl<T> 声明泛型参数T
+// Point<T> 是一个完整的结构体类型
+impl<T> Point<T> {
+    fn x(&self) -> &T {
+        &self.x
+    }
+}
+
+fn main() {
+    let p = Point { x: 5, y: 10 };
+
+    println!("p.x = {}", p.x());
+}
+```
+还可以在结构体的方法中定义额外的泛型参数：
+```
+struct Point<T, U> {
+    x: T,
+    y: U,
+}
+
+impl<T, U> Point<T, U> {
+    fn mixup<V, W>(self, other: Point<V, W>) -> Point<T, W> {
+        Point {
+            x: self.x,
+            y: other.y,
+        }
+    }
+}
+
+fn main() {
+    let p1 = Point { x: 5, y: 10.4 };
+    let p2 = Point { x: "Hello", y: 'c'};
+
+    let p3 = p1.mixup(p2);
+
+    println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+}
+```
+还可以针对具体的类型实现方法(f32的专属方法)：
+```
+impl Point<f32> {
+    fn distance_from_origin(&self) -> f32 {
+        (self.x.powi(2) + self.y.powi(2)).sqrt()
+    }
+}
+```
+
+### const泛型
+```
+// N 是一个const泛型，类型是usize，即可以代表任意usize类型的数值
+fn display_array<T: std::fmt::Debug, const N: usize>(arr: [T; N]) {
+    println!("{:?}", arr);
+}
+fn main() {
+    let arr: [i32; 3] = [1, 2, 3];
+    display_array(arr);
+
+    let arr: [i32; 2] = [1, 2];
+    display_array(arr);
+}
+```
+
+### const fn
+`在编译期可以计算出结果的函数`
+
+```
+const fn add(a: usize, b: usize) -> usize {
+    a + b
+}
+
+const RESULT: usize = add(5, 10);
+
+fn main() {
+    println!("The result is: {}", RESULT);
+}
+```
+
+***
+## 1.5 特征
+
+### 

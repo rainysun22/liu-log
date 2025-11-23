@@ -1086,4 +1086,175 @@ fn main() {
 ***
 ## 1.5 特征
 
-### 
+### 定义特征
+`不同类型具有相同特征，可以定义一个特征，为这些类型实现特征`
+
+```
+// 特征定义
+pub trait Summary {
+    fn summarize(&self) -> String;
+}
+pub struct Post {
+    pub title: String, // 标题
+    pub author: String, // 作者
+    pub content: String, // 内容
+}
+
+// 实现特征
+impl Summary for Post {
+    fn summarize(&self) -> String {
+        format!("文章{}, 作者是{}", self.title, self.author)
+    }
+}
+
+pub struct Weibo {
+    pub username: String,
+    pub content: String
+}
+
+// 实现特征
+impl Summary for Weibo {
+    fn summarize(&self) -> String {
+        format!("{}发表了微博{}", self.username, self.content)
+    }
+}
+
+fn main() {
+    let post = Post{title: "Rust语言简介".to_string(),author: "Sunface".to_string(), content: "Rust棒极了!".to_string()};
+    let weibo = Weibo{username: "sunface".to_string(),content: "好像微博没Tweet好用".to_string()};
+
+    // 调用方法
+    println!("{}",post.summarize());
+    println!("{}",weibo.summarize());
+}
+```
+
+### 特征与实现的位置(孤儿规则)
+`如果你想要为类型 A 实现特征 T，那么 A 或者 T 至少有一个是在当前作用域中定义的！`
+
+`可以保证别人编写的代码不会破坏你的代码`
+
+例如：你无法在当前作用域中为`String`实现`Display`特征，因为他俩都定义在标准库中。
+
+### 特征的默认实现
+```
+pub trait Summary {
+    fn summarize(&self) -> String {
+        String::from("(Read more...)")
+    }
+}
+
+impl Summary for Post {}
+
+impl Summary for Weibo {
+    fn summarize(&self) -> String {
+        format!("{}发表了微博{}", self.username, self.content)
+    }
+}
+```
+默认实现允许只实现特征的部分方法，而其他方法可以保持默认实现。
+```
+pub trait Summary {
+    fn summarize_author(&self) -> String;
+
+    fn summarize(&self) -> String {
+        format!("(Read more from {}...)", self.summarize_author())
+    }
+}
+
+impl Summary for Weibo {
+    fn summarize_author(&self) -> String {
+        format!("@{}", self.username)
+    }
+}
+println!("1 new weibo: {}", weibo.summarize());
+```
+
+### 特征作为函数参数
+```
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+``` 
+`impl Summary`代表实现了Summary特征的item参数
+
+即可以使用任意实现了Summary特征的类型作为该函数的参数
+
+### 特征约束
+`impl Summary`是一个语法糖，原文为：
+```
+pub fn notify<T: Summary>(item: &T) {
+    println!("Breaking news! {}", item.summarize());
+}
+```
+
+1. 多重约束
+```
+// 语法糖
+pub fn notify(item: &(impl Summary + Display)) {}
+// 非语法糖
+pub fn notify<T: Summary + Display>(item: &T) {}
+```
+2. where约束
+`当特征约束变多时，可以在形式上写得好看`
+```
+fn some_function<T, U>(t: &T, u: &U) -> i32
+    where T: Display + Clone,
+          U: Clone + Debug
+{}
+```
+3. 使用特征约束有条件的实现方法或特征
+1) 实现方法
+```
+use std::fmt::Display;
+
+struct Pair<T> {
+    x: T,
+    y: T,
+}
+// 为结构体Pair实现方法new
+impl<T> Pair<T> {
+    fn new(x: T, y: T) -> Self {
+        Self {
+            x,
+            y,
+        }
+    }
+}
+// 为结构体Pair实现方法，但该方法只能由实现了D+P特征的类型调用
+impl<T: Display + PartialOrd> Pair<T> {
+    fn cmp_display(&self) {
+        if self.x >= self.y {
+            println!("The largest member is x = {}", self.x);
+        } else {
+            println!("The largest member is y = {}", self.y);
+        }
+    }
+}
+```
+2) 实现特征
+```
+// 为所有实现了Display特征的类型实现ToString特征
+impl<T: Display> ToString for T {
+    // --snip--
+}
+```
+### 函数返回中的impl trait
+```
+// 函数返回一个实现了Summary特征的类型，但是调用者不知道具体类型时Weibo
+fn returns_summarizable() -> impl Summary {
+    Weibo {
+        username: String::from("sunface"),
+        content: String::from(
+            "m1 max太厉害了，电脑再也不会卡",
+        )
+    }
+}
+```
+这种方式只能有一种具体的类型，不能用if..else..返回不同的类型
+
+### 通过derive派生类型
+通过`#[derive(Debug)]`，可以使被derive标记的对象自动实现对应的默认特征代码
+
+***
+## 1.6 特征对象
